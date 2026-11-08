@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.tmp/
+
+# 原始抓取物与中间产物：可由 scripts/build-corpus.mjs 重建，不入库
+raw/
+.build/

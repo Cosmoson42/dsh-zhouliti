@@ -1,0 +1,71 @@
+{
+  "name": "dsh-zhouliti",
+  "version": "0.1.0",
+  "description": "周礼体 · 用四书五经说话：本地经典语料检索 + 典故表 + 三段式拟古文写作规则",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "client.js",
+    "lib/",
+    "data/",
+    "locale/",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build:corpus": "node scripts/build-corpus.mjs",
+    "check": "node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-tools": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "classics",
+    "confucian",
+    "四书五经",
+    "周礼体"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<owner>/dsh-zhouliti.git"
+  },
+  "homepage": "https://github.com/<owner>/dsh-zhouliti#readme",
+  "bugs": {
+    "url": "https://github.com/<owner>/dsh-zhouliti/issues"
+  },
+  "author": ""
+}

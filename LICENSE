@@ -1,0 +1,30 @@
+MIT License
+
+Copyright (c) 2026 dsh-zhouliti contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+CORPUS NOTICE
+
+文件 data/corpus/ 下由维基文库取得的文本（詩經、禮記、周易、春秋左氏傳、
+尚書、史記、資治通鑑）以 Creative Commons 姓名标示-相同方式共享 4.0
+国际版（CC BY-SA 4.0）授权使用，来源 https://zh.wikisource.org 。
+再分发或修改这些文本时，须保留此授权与来源标注，并以相同方式共享。
+每部书的 source 字段内均标注了具体出处。

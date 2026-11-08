@@ -1,0 +1,5 @@
+# dsh-zhouliti —— 插进 profile 的一个插件条目
+# 报告里那条最坑的规则：这里只写插桩，别把包名写成文件路径（Windows 上会炸）。
+- insert:
+    - id: zhouliti
+      name: dsh-zhouliti

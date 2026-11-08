@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-11-08T05:45:54.526Z",
+  "license": "维基文库来源为 CC BY-SA 4.0；本地读本沿用其 revision 字段所载来源",
+  "droppedDuplicates": 7,
+  "books": [
+    {
+      "slug": "lunyu",
+      "title": "论语",
+      "fullTitle": "论语",
+      "tier": "甲",
+      "scope": "full",
+      "units": 499,
+      "chars": 21674,
+      "file": "lunyu.json"
+    },
+    {
+      "slug": "daxue",
+      "title": "大学",
+      "fullTitle": "礼记·大学",
+      "tier": "甲",
+      "scope": "full",
+      "units": 31,
+      "chars": 2169,
+      "file": "daxue.json"
+    },
+    {
+      "slug": "mengzi",
+      "title": "孟子选读",
+      "fullTitle": "孟子·修身与仁政选读",
+      "tier": "甲",
+      "scope": "selection",
+      "units": 18,
+      "chars": 2665,
+      "file": "mengzi.json"
+    },
+    {
+      "slug": "daode",
+      "title": "道德经",
+      "fullTitle": "老子道德经·王弼本正文",
+      "tier": "丙",
+      "scope": "full",
+      "units": 81,
+      "chars": 6445,
+      "file": "daode.json"
+    },
+    {
+      "slug": "zhuangzi",
+      "title": "庄子选读",
+      "fullTitle": "庄子·寓言与人生选读",
+      "tier": "丙",
+      "scope": "selection",
+      "units": 12,
+      "chars": 2170,
+      "file": "zhuangzi.json"
+    },
+    {
+      "slug": "caigen",
+      "title": "菜根谭",
+      "fullTitle": "菜根谭·明刻本前后集",
+      "tier": "丙",
+      "scope": "full",
+      "units": 356,
+      "chars": 14916,
+      "file": "caigen.json"
+    },
+    {
+      "slug": "mengzi_full",
+      "title": "孟子",
+      "fullTitle": "孟子（全本）",
+      "tier": "甲",
+      "scope": "全本（14 篇 260 章）",
+      "units": 260,
+      "chars": 45153,
+      "file": "mengzi_full.json"
+    },
+    {
+      "slug": "shijing",
+      "title": "诗经",
+      "fullTitle": "毛诗",
+      "tier": "甲",
+      "scope": "全本（289 篇；通行本 305 篇，缺芣苢、韓奕等，另 6 篇笙诗有目无辞）",
+      "units": 289,
+      "chars": 38498,
+      "file": "shijing.json"
+    },
+    {
+      "slug": "liji",
+      "title": "礼记",
+      "fullTitle": "小戴礼记",
+      "tier": "甲",
+      "scope": "全本（49 篇）",
+      "units": 2261,
+      "chars": 123624,
+      "file": "liji.json"
+    },
+    {
+      "slug": "zuozhuan",
+      "title": "左传",
+      "fullTitle": "春秋左氏传",
+      "tier": "乙",
+      "scope": "节本（隐公—哀公 12 公分卷，按年系事）",
+      "units": 3460,
+      "chars": 238763,
+      "file": "zuozhuan.json"
+    },
+    {
+      "slug": "shangshu",
+      "title": "尚书",
+      "fullTitle": "尚书",
+      "tier": "乙",
+      "scope": "选篇（20 篇；伪古文篇目已在 section 里标注）",
+      "units": 480,
+      "chars": 24383,
+      "file": "shangshu.json"
+    },
+    {
+      "slug": "yijing",
+      "title": "周易",
+      "fullTitle": "周易（易经 + 十翼节选）",
+      "tier": "甲",
+      "scope": "全本（64 卦）+ 系辞/说卦/序卦/杂卦",
+      "units": 69,
+      "chars": 8142,
+      "file": "yijing.json"
+    },
+    {
+      "slug": "shiji",
+      "title": "史记",
+      "fullTitle": "史记·周本纪",
+      "tier": "丙",
+      "scope": "选段（卷四·周本纪）",
+      "units": 150,
+      "chars": 10538,
+      "file": "shiji.json"
+    },
+    {
+      "slug": "zizhitongjian",
+      "title": "资治通鉴",
+      "fullTitle": "资治通鉴·卷一",
+      "tier": "丙",
+      "scope": "选段（卷一·周纪一）",
+      "units": 111,
+      "chars": 7739,
+      "file": "zizhitongjian.json"
+    }
+  ]
+}
