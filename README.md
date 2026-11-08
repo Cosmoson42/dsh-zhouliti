@@ -86,7 +86,7 @@ github:<owner>/dsh-zhouliti
 ## 开发
 
 ```bash
-npm test            # 26 个用例：语料完整性、简繁检索、不许凑、体例自查、引用账落盘
+npm test            # 28 个用例：语料完整性、简繁检索、不许凑、体例自查、引用账落盘
 npm run build:corpus   # 从原始抓取物重建 data/corpus/
 ```
 

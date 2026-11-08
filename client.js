@@ -146,6 +146,20 @@ window.__ModuleLoader__.load({
         )
       }
 
+      if (data.stats && data.corpus) {
+        // zhouliti_status 的结果：本地收了什么、这一段引了几条
+        const led = data.ledger || {}
+        const all = data.allusions || {}
+        return h('div', { style: css.wrap },
+          h('div', { style: css.row },
+            h('span', { style: { fontWeight: 600 } }, '本地语料'),
+            h('span', { style: css.muted }, `${data.stats.books || 0} 部 · ${data.stats.units || 0} 条 · ${data.stats.chars || 0} 字`),
+          ),
+          h('div', { style: css.muted }, `典故 ${all.verified || 0}/${all.total || 0} 条已校验`),
+          h('div', { style: css.muted }, `引用 ${led.citations || 0} 条 · 留白 ${led.blanks || 0} 次`),
+        )
+      }
+
       if (!found) {
         return h('div', { style: css.wrap },
           h('div', { style: { fontWeight: 600 } }, '本地没有收录'),
@@ -191,8 +205,8 @@ window.__ModuleLoader__.load({
           name: 'settings.section', id: 'zhouliti', order: 32, label: '周礼体',
         }, Panel))
 
-        // keyed slot：key 是工具名，只接管本插件的四个工具
-        for (const tool of ['zhouliti_lookup', 'zhouliti_allusion', 'zhouliti_check', 'zhouliti_compose']) {
+        // keyed slot：key 是工具名，只接管本插件的五个工具
+        for (const tool of ['zhouliti_lookup', 'zhouliti_allusion', 'zhouliti_check', 'zhouliti_compose', 'zhouliti_status']) {
           slots.inject('tool.call.toolview', () => slots.register({
             name: 'tool.call.toolview', id: `zhouliti-${tool}`, key: tool, order: 10,
           }, ToolView))
