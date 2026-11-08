@@ -54,7 +54,7 @@
 dsh-zhouliti
 
 # 或从 GitHub
-github:<owner>/dsh-zhouliti
+github:Cosmoson42/dsh-zhouliti
 
 # 或直接用本目录（开发时）
 /absolute/path/to/dsh-zhouliti

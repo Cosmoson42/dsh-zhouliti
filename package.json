@@ -61,11 +61,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<owner>/dsh-zhouliti.git"
+    "url": "git+https://github.com/Cosmoson42/dsh-zhouliti.git"
   },
-  "homepage": "https://github.com/<owner>/dsh-zhouliti#readme",
+  "homepage": "https://github.com/Cosmoson42/dsh-zhouliti#readme",
   "bugs": {
-    "url": "https://github.com/<owner>/dsh-zhouliti/issues"
+    "url": "https://github.com/Cosmoson42/dsh-zhouliti/issues"
   },
-  "author": ""
+  "author": "Cosmoson42"
 }
